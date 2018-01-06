@@ -1,0 +1,19 @@
+{
+    "name": "yaroinfo/favicon-generator",
+    "description": "Favicon generator",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Yaro",
+            "email": "glodov@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "ext-imagick": "*"
+    },
+    "autoload": {
+        "psr-4": {"FaviconGenerator\\": "src/"}
+    }
+}
